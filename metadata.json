@@ -1,0 +1,6 @@
+{
+  "name": "MINHA ASSESSORIA — Quiz de Corrida",
+  "description": "Descubra se o seu treinamento está realmente organizado de acordo com o seu objetivo de corrida com o MINHA ASSESSORIA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
