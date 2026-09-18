@@ -67,7 +67,7 @@ export const Stage13Positioning: React.FC<Stage13PositioningProps> = ({ onNext }
       </div>
 
       {/* Button */}
-      <div className="pt-4 border-t border-zinc-900 sticky bottom-0 bg-zinc-950/95 py-3 -mx-2 px-2 backdrop-blur">
+      <div className="pt-6 pb-6">
         <button
           type="button"
           onClick={onNext}

@@ -44,25 +44,25 @@ export const AppMockup: React.FC<AppMockupProps> = () => {
             <span className="text-[11px] font-mono text-zinc-400">Terça-feira</span>
           </div>
           <h3 className="text-base font-extrabold text-white tracking-tight uppercase">
-            Tiros de 800m + Ritmo
+            Tiros de 500m + Ritmo (5 km)
           </h3>
           <p className="text-xs text-zinc-400 mt-0.5">
-            Foco: Desenvolvimento de limiar e economia de corrida
+            Foco: Desenvolvimento de velocidade e ritmo sustentado para 5 km
           </p>
 
           {/* Quick Metrics */}
           <div className="grid grid-cols-3 gap-2 mt-3 pt-3 border-t border-zinc-800/80 text-center">
             <div className="bg-zinc-950/60 rounded-lg py-1.5 px-2 border border-zinc-850">
               <span className="text-[9px] uppercase tracking-wider text-zinc-400 block">Distância</span>
-              <span className="text-xs font-extrabold text-white font-mono">8.4 km</span>
+              <span className="text-xs font-extrabold text-orange-400 font-mono">5.0 km</span>
             </div>
             <div className="bg-zinc-950/60 rounded-lg py-1.5 px-2 border border-zinc-850">
               <span className="text-[9px] uppercase tracking-wider text-zinc-400 block">Duração</span>
-              <span className="text-xs font-extrabold text-white font-mono">48 min</span>
+              <span className="text-xs font-extrabold text-white font-mono">32 min</span>
             </div>
             <div className="bg-zinc-950/60 rounded-lg py-1.5 px-2 border border-zinc-850">
               <span className="text-[9px] uppercase tracking-wider text-zinc-400 block">Pace Alvo</span>
-              <span className="text-xs font-extrabold text-orange-400 font-mono">4:45/km</span>
+              <span className="text-xs font-extrabold text-white font-mono">4:55/km</span>
             </div>
           </div>
         </div>
@@ -79,11 +79,11 @@ export const AppMockup: React.FC<AppMockupProps> = () => {
               <span className="text-[10px] font-bold text-blue-400 font-mono">01</span>
               <div>
                 <p className="font-bold text-zinc-200">AQUECIMENTO</p>
-                <p className="text-[11px] text-zinc-400">Trote progressivo Z1/Z2 + educativos</p>
+                <p className="text-[11px] text-zinc-400">Trote progressivo Z1/Z2 (1.5 km)</p>
               </div>
             </div>
             <div className="text-right">
-              <span className="font-mono text-zinc-300 font-semibold">15 min</span>
+              <span className="font-mono text-zinc-300 font-semibold">10 min</span>
             </div>
           </div>
 
@@ -95,14 +95,14 @@ export const AppMockup: React.FC<AppMockupProps> = () => {
                 <div className="flex items-center gap-1.5">
                   <p className="font-bold text-white">PARTE PRINCIPAL</p>
                   <span className="text-[9px] bg-orange-500/20 text-orange-400 px-1.5 py-0.2 rounded font-mono font-bold">
-                    6x 800m
+                    5x 500m
                   </span>
                 </div>
-                <p className="text-[11px] text-zinc-400">Ritmo 4:40-4:50/km c/ 90s trote</p>
+                <p className="text-[11px] text-zinc-400">Ritmo 4:45-4:55/km c/ 90s trote (2.5 km)</p>
               </div>
             </div>
             <div className="text-right">
-              <span className="font-mono text-orange-400 font-bold">~23 min</span>
+              <span className="font-mono text-orange-400 font-bold">~15 min</span>
             </div>
           </div>
 
@@ -112,11 +112,11 @@ export const AppMockup: React.FC<AppMockupProps> = () => {
               <span className="text-[10px] font-bold text-emerald-400 font-mono">03</span>
               <div>
                 <p className="font-bold text-zinc-200">DESAQUECIMENTO</p>
-                <p className="text-[11px] text-zinc-400">Trote regenerativo leve</p>
+                <p className="text-[11px] text-zinc-400">Trote regenerativo leve (1.0 km)</p>
               </div>
             </div>
             <div className="text-right">
-              <span className="font-mono text-zinc-300 font-semibold">10 min</span>
+              <span className="font-mono text-zinc-300 font-semibold">7 min</span>
             </div>
           </div>
         </div>

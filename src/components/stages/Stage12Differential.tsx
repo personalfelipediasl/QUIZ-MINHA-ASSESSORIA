@@ -16,7 +16,7 @@ export const Stage12Differential: React.FC<Stage12DifferentialProps> = ({ onNext
             Metodologia Estruturada
           </span>
           <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white uppercase font-display leading-tight">
-            NÃO É APENAS: <span className="text-orange-500">“CORRA 8 KM”.</span>
+            NÃO É APENAS: <span className="text-orange-500">“CORRA 5 KM OU 10 KM”.</span>
           </h2>
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed max-w-md">
             Cada treino tem uma anatomia pensada para você progredir sem lesões e sem correr no escuro.
